@@ -2513,7 +2513,7 @@
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
-			margin: 0 0 2em 0;
+			margin: -5em 0 2em 0;
 		}
 
 		#header strong, #header b {
@@ -2539,7 +2539,7 @@
 /* Footer */
 
 	#footer .icons {
-		margin: -1em 0 0 0;
+		margin: -10em 0 0 0;
 	}
 
 		#footer .icons a {
