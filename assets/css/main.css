@@ -1992,6 +1992,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		opacity: 1.0;
 	}
 
 		.image:before {
@@ -2005,7 +2006,7 @@
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.0;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -2487,10 +2488,11 @@
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		/* background-image: url(), url("../../images/bg.jpg"); */
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgb(255, 255, 255);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2514,6 +2516,7 @@
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: -5em 0 2em 0;
+			
 		}
 
 		#header strong, #header b {
